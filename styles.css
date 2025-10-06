@@ -1,6 +1,8 @@
 
 /* Your CSS Code here. */
-.holder{
-	display:grid;
-	grid-template-columns: auto auto auto;
+.holder {
+  display: flex;               /* Enables flexbox */
+  flex-direction: row;         /* Aligns items in a horizontal row */
+  justify-content: space-evenly; /* ✅ Evenly distributes items across the row */
+  flex-wrap: wrap;             /* ✅ Moves extra items to the next row instead of squashing */
 }
